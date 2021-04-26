@@ -1,0 +1,38 @@
+.navbar {
+    padding: 0;
+    .navbar-brand {
+        font-size: 16px;
+        font-weight: 800;
+        color: $link-black;
+        &:after,&:before {
+            display: inline-block;
+        }
+        &::before{
+            content: 'Lako';
+            color: $link-blue;
+        }
+        &::after {
+            content: 'Posla';
+        }
+    }
+    ul {
+        li {
+            display: flex;
+            align-items: center;
+            &.active > .nav-link {
+                color: $link-blue !important;
+                &:hover, &:focus {
+                    color: $link-hover-blue !important
+                }
+            }
+            .nav-link {
+                font-weight: 500;
+                color: $link-gray !important;
+                padding: 1.5rem 1rem !important;
+                &:hover, &:focus {
+                    color: $link-black !important;
+                }
+            }
+        }
+    }
+}

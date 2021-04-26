@@ -1,4 +1,5 @@
 $color-blue: #2196F3;
+$color-dark-blue: #0062FF;
 $color-light-blue: #D0E1FB;
 $color-light-orange: rgba(#FE8121, 30%);
 $color-light-orange: rgba(#A5CE3B, 30%);
@@ -16,6 +17,11 @@ $subheading:$color-gray;
 $link-black: $color-black;
 $link-white: $color-white;
 $link-gray: $color-medium-gray;
+$link-blue: $color-blue;
+$link-hover-blue: $color-dark-blue;
 
+$button-cta-blue: $color-blue;
 $button-gray-text:$color-gray;
 $button-gray-background: #EDEDEC;
+
+$background-color: $color-light-gray;

@@ -1,3 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: $color-black;
+    background-color: $background-color;
+}
+
+.button {
+    padding: 7px 15px;
+    display: block;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.button-cta-blue {
+    background-color: $button-cta-blue;
+    color: $link-white !important;
+}
+.border-bottom-white {
+    border-bottom: 1px solid $color-white;
 }
