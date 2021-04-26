@@ -1,7 +1,7 @@
 <template>
   <div class="border-bottom-white">
     <nav class="navbar navbar-expand-lg navbar-light container">
-      <a class="navbar-brand" href="#">Do</a>
+      <a class="navbar-brand" href="/">Do</a>
       <button
         class="navbar-toggler"
         type="button"

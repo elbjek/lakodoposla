@@ -1,3 +1,7 @@
+
+html,body {
+    height: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -5,17 +9,31 @@ body {
     background-color: $background-color;
 }
 
-.button {
+.button, .button-search {
     padding: 7px 15px;
     display: block;
     font-weight: 500;
     border-radius: 5px;
+    border: none;
 }
 
-.button-cta-blue {
+.button-cta-blue, .button-search-blue {
     background-color: $button-cta-blue;
     color: $link-white !important;
 }
 .border-bottom-white {
     border-bottom: 1px solid $color-white;
+}
+
+.search-bar-input {
+    border-radius: 5px;
+    &::placeholder {
+        color: $color-gray;
+        font-size: 12px;
+    }
+    &:focus, &:focus-visible, &:visited {
+        border: none;
+        outline:none;
+        box-shadow: none;
+    }
 }
