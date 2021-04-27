@@ -40,6 +40,23 @@
         </div>
       </div>
     </section>
+    <section class="home-categories">
+      <div class="container">
+        <h4 class="heading-main">Pogledajte poslove po zelji</h4>
+        <div class="home-categories-all row">
+          <div v-for="category in categories" :key="category.index"
+            :class="
+            category.list.length > 5 ? 'col-sm-12 col-lg-6' : 'col-sm-12 col-md-4 col-lg-2'">
+            <h5>{{category.title}}</h5>
+            <ul>
+              <li v-for="item in category.list" :key="item.index">
+                <router-link to="/oglasi">{{item}}</router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -144,6 +161,37 @@ export default {
           { tag: 'Remote', marker: 'green' },
         ],
         time: new Date(),
+      },
+    ],
+    categories: [
+      {
+        title: 'Po popularnosti',
+        list: [
+          'Administracija, Knjigovodstvo', 'Advertising, Marketing, PR',
+          'Prevodjenje, jezici, knjizevnost', 'Elektronika, Elektrotehnika', 'Telekomunikacije',
+          'Ljudski resursi', 'Menadzment i upravljanje', 'Izdavacke kuce, Mediji', 'Stamparske usluge',
+          'Trgovina na veliko', 'Turizam, Ugostiteljstvo', 'Zanatske usluge',
+          'Tekstilna industrija', 'Saobracaj, Transport', 'Skladista i Magacini', 'Knjizevnost',
+          'Roba siroke potrosnje', 'Ekonomija', 'Drzavne institucije',
+        ],
+      },
+      {
+        title: 'Senioritet',
+        list: [
+          'Bez iskustva', 'Junior', 'Medior', 'Senior', 'Studenti',
+        ],
+      },
+      {
+        title: 'Po tipu',
+        list: [
+          'Poslodavac', 'Agencija za zaposljavanje', 'Puno radno vreme', 'Pola radnog vremena', 'Praksa',
+        ],
+      },
+      {
+        title: 'Po regiji',
+        list: [
+          'Severena Srbija', 'Centralna Srbija', 'Juzna Srbija',
+        ],
       },
     ],
   }),
