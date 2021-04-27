@@ -1,0 +1,39 @@
+.footer {
+    padding-top: 4rem;
+    &-top {
+        padding-bottom: 4rem;
+        .row {
+            &:first-of-type {
+                margin-bottom: 1rem;
+            }
+        }
+        ul {
+            margin: 0;
+            padding:0;
+            li {
+                list-style-type: none;
+                a {
+                    color: $link-gray;
+                }
+            }
+        }
+        p:not(.text-bold) {
+            color: $link-gray;
+        }
+
+    }
+    &-bottom {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: $background-color-white;
+        text-align:center;
+        li {
+            display: inline-block;
+            white-space: pre;
+            a {
+                color: $link-black;
+                font-weight: 700;
+            }
+        }
+    }
+}
