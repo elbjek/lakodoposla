@@ -8,6 +8,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './assets/styles/main.scss';
 
+const moment = require('moment');
+require('moment/locale/sr');
+
+Vue.use(require('vue-moment'), {
+  moment,
+});
+
 Vue.config.productionTip = false;
 
 new Vue({
