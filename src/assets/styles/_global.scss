@@ -28,6 +28,12 @@ a {
     background-color: $button-cta-blue;
     color: $link-white !important;
 }
+
+.button-cta-green {
+    background-color: $color-green;
+    color: $color-white;
+}
+
 .border-bottom-white {
     border-bottom: 1px solid $color-white;
 }

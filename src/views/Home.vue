@@ -11,7 +11,7 @@
         <div v-for="el in positions" :key="el.index" class="col-sm-12 col-lg-4">
           <HomePositions
             :title="el.title"
-            :description="el.description"
+            :short_description="el.short_description"
             :borderColor="el.marker"
           />
         </div>

@@ -2,7 +2,7 @@
   <div class="home-positions-card"
   v-bind:class="'home-positions-card-' + borderColor">
       <p>{{title}}</p>
-      <p>{{description}}</p>
+      <p>{{short_description}}</p>
       <router-link to="/about">Pogledaj sve ></router-link>
   </div>
 </template>
@@ -13,6 +13,6 @@ export default {
 
   data: () => ({
   }),
-  props: ['title', 'description', 'borderColor'],
+  props: ['title', 'short_description', 'borderColor'],
 };
 </script>

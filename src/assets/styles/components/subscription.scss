@@ -1,0 +1,29 @@
+.subscriptions {
+    background-color: $background-color-light-blue;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    &-email {
+        margin-bottom: 1rem;
+    }
+    input {
+        border: none;
+        &::placeholder {
+            font-size: 11px;
+            color: $color-medium-gray;
+            opacity: 0.6;
+        }
+    }
+    &-title {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    &-subtitle {
+        font-size: 12px;
+        color: $text-light-gray;
+    }
+    .button {
+        font-size: 12px;
+    }
+}

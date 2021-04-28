@@ -5,8 +5,10 @@
 @import 'components/navbar';
 @import 'components/ad';
 @import 'components/footer';
+@import 'components/cv-generator';
+@import 'components/subscription';
 
 
 @import 'views/home';
-
+@import 'views/single-ad';
 @import 'views/searchbar'

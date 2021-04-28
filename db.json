@@ -2,70 +2,211 @@
     "adverts": [
         {
           "id": 1,
-          "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "title": "Medicinska sestra - vaspitac",
+          "short_description": "Medicinska sestra - vaspitac",
+          "company": "Predškolska ustanova “HAPPY KIDS”",
+          "long_description": "ПУ HAPPY KIDS је лидер на тржишту приватног предшколског образовања, посвећен квалитетном васпитно образовном раду са децом. Због отварања нових објеката и проширења капацитета, потребни су нам добро квалификовни и високо мотивисани кандидати који имају стручности и стрпљења за рад са децом предшколског узраста.",
           "location": "Beograd",
+          "address":"КОПЕРНИКОВА 10",
           "tags": [
             { "id": 1, "tag": "Full Time", "marker": "blue" },
             { "id": 2, "tag": "Junior", "marker": "orange" },
             { "id": 3, "tag": "Remote", "marker": "green" }
           ],
           "time": 1588077519,
-          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+          "img": "https://happykidsvrtic.rs/wp-content/uploads/2020/02/logo-happy-kids.jpg",
+          "website": "www.happykidsvrtic.rs",
+          "work_conditions": [
+            "IV степен стручне спреме средња медицинска школа, васпитачки смер.",
+            "познавање рада на рачунару (MS office пакет).",
+            "са или без радног искуства."
+          ],
+          "employee_traits":[
+            "Благ, топао и срдачан приступ деци",
+            "Енергичност, сналажљивост, одговорност, стрпљење и брижна природа",
+            "Добре комуникацијске вештине и говорљивост",
+            "Разумевање потреба и осећања деце",
+            "Способност самосталног рада и рада у тиму",
+            "Вештине као што су певање, цртање и глума би сигурно помогле у бољем обављању овог посла",
+            "Жеља за стицањем нових сазнања и усавршавањем",
+            "Жеља за постизањем пословног успеха и личним напредовањем"
+          ],
+          "our_offer": [
+            "Рад према већ утврђеном плану и програму",
+            "Четрдесеточасовну радну недељу",
+            "Редовну и стимулативну зараду",
+            "Плаћен прековремени рад и рад празницима",
+            "Плаћени тренинг сати",
+            "Oстваривањe додатних финансијских бонуса и повластица на основу резултата рада и дужине стажа у установи",
+            "Неограничено конзумирање и слободан избор квалитетно припремљене домаће хране",
+            "Менторски рад и квалитетну стручну подршку",
+            "Ненадмашан професионални развој – редовни курсеви, семинари са циљем стицања знања и вештина за професионално усавршавање и лично напредовање",
+            "Стицање практичног искуства у раду са модерним средствима за рад",
+            "Праћење најновијих трендова и најбоље праксе у области предшколског образовања",
+            "Рад у младом, амбициозном, добро квалификованом и високо мотивисаном тиму",
+            "Конкурентну предност",
+            "Могућност продужења уговора"
+          ],
+          "expectations": [
+            "Прихватање већ постојећих инструкцијских метода рада, наставних стандарда и сигурносних прописа Установе",
+            "Пружање основне неге и подршке деци за безбедан боравак у групи",
+            "Спровођење већ постојећег плана и програма рада у раду са децом",
+            "Помоћ у развоју дететових животних, социјалних, емотивних, когнитивних и креативних способности кроз дететов практичан доживљај и искуство",
+            "Посматрање, процењивање и евалуирање напретка сваког детета",
+            "Спремност да се одговори на потребе и захтеве породица малишана",
+            "Позитивну и отворену сарадњу са породицама малишана који похађају вртић",
+            "Стрпљење и флексибилност",
+            "Спремност за додатни рад викендом и у вечерњим терминима"
+          ]
         },
         {
           "id": 2,
-          "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "title": "Vozač - magacioner",
+          "short_description": "Vozač - magacioner",
+          "long_description": "Delatnost firme BanSek trade d.o.o. je uvoz i veleprodaja rezervnih delova renomiranih svetskih proizvođača iz oblasti autoindustrije. Specijalizovani  smo za teretni program Mercedes-Benz, MAN i Scania, za delove kvačila za sve tipove kamiona i autobusa, delove za SAF osovine prikolica, kao i putnički program Mercedes. Od strane revizorskih kuća smo označeni kao AAA firma u Srbiji, što je oznaka za najviši kvalitet poslovanja koji se može dobiti. Postanite deo tima koji pobeđuje!",
+          "company": "BanSek trade d.o.o",
           "location": "Beograd",
+          "website":"http://www.bansek.rs",
           "tags": [
             { "id": 3, "tag": "Remote", "marker": "green" }
           ],
           "time": 1588077519,
-          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+          "img": "http://www.bansek.rs/img/logo.png",
+          "work_conditions": [],
+          "employee_traits":[
+          ],
+          "our_offer": [
+            "Odlične uslove rada",
+            "Fiksno radno vreme",
+            "Rad u firmi koja se širi na međunarodna tržišta",
+            "Rad sa najvećim svetskim brendovima"
+          ],
+          "expectations": [
+            "Rad u poslovnoj jedinici u Busijama (Batajnica)",
+            "Magacinski poslovi, prijem i pakovanje robe",
+            "Razvoz robe kupcima dosatvnim vozilom na široj teritoriji Beograda",
+            "Uredno vodjenje magacina",
+            "Briga o poverenoj robi",
+            "Vozačka dozvola B kategorije",
+            "Minimum SSS",
+            "Da niste osuđivani"
+          ]
         },
         {
           "id": 3,
-          "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "title": "Blockchain developer",
+          "short_description": "Blockchain team lead developer in a small team",
+          "long_description": " We are Libertas-fund, leading blockchain provider, dedicated to provide cutting-edge expertise in areas including blockchain technology, development and programing, mining, trading, including AI robotics. We have our own trading platform with the lowest fees to buy and sell cryptocurrencies, including Bitcoin, Ethereum, Litecoin, Monero, Zcash, TSF, Binar and many more.",
           "location": "Beograd",
+          "address":"Beograd, Bulevar Vudroa Vilsona 8a",
+          "company":"Nexus Tech d.o.o",
+          "website":"http://libertas-fund.eu",
           "tags": [
             { "id": 1, "tag": "Full Time", "marker": "blue" },
-            { "id": 2, "tag": "Junior", "marker": "orange" }
+            { "id": 2, "tag": "Senior", "marker": "green" }
           ],
           "time": 1588077519,
-          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
-        }
-        ,
+          "img": "https://libertas-fund.eu/assets/img/WHITE-LOGO-LIBERTAS.png",
+          "work_conditions": [
+            "Collaborate with managers to determine blockchain technology needs and envisaged functionalities.",
+            "Create application features and interfaces by using programming languages and writing multithreaded codes.",
+            "Apply the latest cryptology techniques to protect digital transaction data against cyberattacks and information hacks.",
+            "Maintain client and server-side applications.",
+            "Optimizing and securing blockchain applications by integrating new tools and technologies.",
+            "Educate sales personnel on blockchain features that allow secure digital payments.",
+           "Document blockchain development processes and complying with best practices in data protection.",
+            "Keep up with current blockchain technologies and cryptography methods.",
+            "Be responsible of weekly and monthly reporting."
+          ],
+          "employee_traits":[],
+          "our_offer": [],
+          "expectations": [
+            "Bachelor's degree in information security, computer science, or related.",
+            "At least two years' experience as a blockchain developer.",
+            "Advanced proficiency in programming languages, such as Golang, C++, Java, and Python.",
+            "Extensive experience in back-end development, algorithms, and data structures.",
+            "Knowledge of cryptography and blockchain protocols.",
+            "In-depth knowledge of best practices in blockchain management and data protection.",
+            "Advanced analytical and problem-solving skills.",
+            "Superb organizational skills and keen attention to detail.",
+            "Excellent communication and collaboration abilities."
+          ]
+        },
         {
           "id": 4,
-          "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "title": "Odvajac",
+          "short_description": "Odvajac - Radnik u centralnom magacinu",
+          "long_description": "Kompanija Aman d.o.o. kao jedan od vodećih domaćih trgovinskih lanaca u kontinuitetu beleži intezivan rast i razvoj i ima neprestanu potrebu za novim kadrovima na različitim pozicijama.",
           "location": "Beograd",
+          "company":"Aman d.o.o",
+          "address":"Beograd, Bulevar Vudroa Vilsona 8a",
+          "website":"http://libertas-fund.eu",
           "tags": [
             { "id": 1, "tag": "Full Time", "marker": "blue" },
             { "id": 2, "tag": "Junior", "marker": "orange" }
           ],
           "time": 1588077519,
-          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg",
+          "work_conditions": [
+            "Briga o prijemu, skladištenju, komisioniranju i razvrstavanju proizvoda",
+            "Redovno održavanje robe i svih površina u objektu",
+            "Ostala zaduženja po nalogu nadređenog"
+           ],
+           "employee_traits":[
+             "Potrebno radno iskustvo na istim ili sličnim poslovima",
+             "Odgovornost, urednost, brzina u radu"
+           ],
+           "our_offer": [
+            "Angažovanje na duži vremenski period",
+            "Dinamično radno okruženje i smenski rad",
+            "Mogućnost napredovanja"
+           ],
+           "expectations": []
         }
         ,
         {
           "id": 5,
-          "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "title": "Perač posuđa",
+          "short_description": "",
+          "long_description": "Toro Latin GastroBar je moderni, internacionalni restoran latino-američke kuhinje. Nosi ime poznatog šefa Ričarda Sandovala koji je širom sveta poznat po svojim pan-latinskim ukusima. Deo je grupacije restorana Street Guys Hospitality koja posluje na dva kontinenta, u Evropi i Americi. Rezultat našeg rada su zadovoljni gosti, a taj cilj postižu naši zadovoljni zaposleni.",
           "location": "Beograd",
+          "address":"Karađorđeva 2-4",
+          "website":"http://torobelgrade.com",
           "tags": [
             { "id": 1, "tag": "Full Time", "marker": "blue" },
             { "id": 2, "tag": "Junior", "marker": "orange" }
           ],
           "time": 1588077519,
-          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+          "img": "https://images.squarespace-cdn.com/content/v1/5a4fe82312abd96d2a2e35e9/1515522174398-I4G6UE3UJIDRSERCZ1C6/ke17ZwdGBToddI8pDm48kOyctPanBqSdf7WQMpY1FsRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyD4IQ_uEhoqbBUjTJFcqKvko9JlUzuVmtjr1UPhOA5qkTLSJODyitRxw8OQt1oetw/RSR_TOROGastroBar_Logo.png?format=500w",
+          "work_conditions": [
+            "Održava čistim i urednim svoj radni prostor",
+            "Zadužen za pranje svog inventara koji se nalazi u kuhinji",
+            "Održava čistim pod, police, haubu",
+            "Odgovoran za potrošnju hemije i sredstava za održavanje higijene",
+            "Odgovoran za ispravno korišćenje mašine za pranje sudova",
+            "Redovno prazni kante za smeće i iznosi iz restorana",
+            "Pomaže kuvarima u radu (čišćenje povrća)",
+            "Iskustvo na istim ili sličnim poslovima je prednost"
+           ],
+           "employee_traits":[
+            "Odgovorna osoba",
+            "Poseduje svest o čistoći i higijeni",
+            "Poseduje radnu etiku",
+            "Timski igrač"
+           ],
+           "our_offer": [
+            "Satnicu od 220 rsd",
+            "Rad u dinamičnom i izazovnom okruženju",
+            "Mogućnost napredovanja",
+            "Obezbeđenu uniformu"
+           ],
+           "expectations": []
         },
         {
           "id": 6,
           "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "short_description": "Stomatološka sestra - tehničar/asistent",
+          "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eum, commodi nostrum nulla sunt a recusandae libero dicta odit voluptate reprehenderit nihil dolore. Corrupti neque cum perspiciatis quo, odit odio.",
           "location": "Beograd",
           "tags": [
             { "id": 1, "tag": "Full Time", "marker": "blue" },
@@ -77,7 +218,8 @@
         {
           "id": 7,
           "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "short_description": "Stomatološka sestra - tehničar/asistent",
+          "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eum, commodi nostrum nulla sunt a recusandae libero dicta odit voluptate reprehenderit nihil dolore. Corrupti neque cum perspiciatis quo, odit odio.",
           "location": "Beograd",
           "tags": [
             { "id": 1, "tag": "Full Time", "marker": "blue" },
@@ -89,7 +231,8 @@
         {
           "id": 8,
           "title": "Operater u kladionici",
-          "description": "Stomatološka sestra - tehničar/asistent",
+          "short_description": "Stomatološka sestra - tehničar/asistent",
+          "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eum, commodi nostrum nulla sunt a recusandae libero dicta odit voluptate reprehenderit nihil dolore. Corrupti neque cum perspiciatis quo, odit odio.",
           "location": "Beograd",
           "tags": [
             { "id": 1, "tag": "Full Time", "marker": "blue" },
@@ -137,21 +280,21 @@
       {
         "id": 1,
         "title": "Full-Time Pozicije",
-        "description":
+        "short_description":
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.",
         "marker": "orange"
       },
       {
         "id": 2,
         "title": "Part-Time Pozicije",
-        "description":
+        "short_description":
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.",
         "marker": "green"
       },
       {
         "id": 3,
         "title": "Rad od kuce",
-        "description":
+        "short_description":
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.",
         "marker": "blue"
       }
