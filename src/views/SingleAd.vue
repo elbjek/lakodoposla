@@ -7,6 +7,7 @@
           <CvGenerator/>
         </aside>
         <section class="col-sm-8 single-ad-page-data">
+          <Loading v-if="loading"/>
           <Ad :ad="advert" :marker="'all'"/>
         </section>
       </div>
@@ -19,16 +20,21 @@
 import Subscription from '../components/Subscription.vue';
 import CvGenerator from '../components/CvGenerator.vue';
 import Ad from '../components/Ad.vue';
+import Loading from '../components/global/Loader.vue';
 
 export default {
   name: 'SingleAd',
   components: {
-    Subscription, CvGenerator, Ad,
+    Subscription, CvGenerator, Ad, Loading,
   },
   mounted() {
+    console.log(this.$route.params.id);
     this.$store.dispatch('getAdvert', this.$route.params.id);
   },
   computed: {
+    loading() {
+      return this.$store.getters.loading;
+    },
     advert() {
       return this.$store.state.advert;
     },
