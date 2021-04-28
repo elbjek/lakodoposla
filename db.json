@@ -10,7 +10,7 @@
             { "id": 2, "tag": "Junior", "marker": "orange" },
             { "id": 3, "tag": "Remote", "marker": "green" }
           ],
-          "time": "new Date()",
+          "time": 1588077519,
           "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
         },
         {
@@ -21,7 +21,7 @@
           "tags": [
             { "id": 3, "tag": "Remote", "marker": "green" }
           ],
-          "time": "new Date()",
+          "time": 1588077519,
           "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
         },
         {
@@ -33,7 +33,69 @@
             { "id": 1, "tag": "Full Time", "marker": "blue" },
             { "id": 2, "tag": "Junior", "marker": "orange" }
           ],
-          "time": "new Date()",
+          "time": 1588077519,
+          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+        }
+        ,
+        {
+          "id": 4,
+          "title": "Operater u kladionici",
+          "description": "Stomatološka sestra - tehničar/asistent",
+          "location": "Beograd",
+          "tags": [
+            { "id": 1, "tag": "Full Time", "marker": "blue" },
+            { "id": 2, "tag": "Junior", "marker": "orange" }
+          ],
+          "time": 1588077519,
+          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "title": "Operater u kladionici",
+          "description": "Stomatološka sestra - tehničar/asistent",
+          "location": "Beograd",
+          "tags": [
+            { "id": 1, "tag": "Full Time", "marker": "blue" },
+            { "id": 2, "tag": "Junior", "marker": "orange" }
+          ],
+          "time": 1588077519,
+          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Operater u kladionici",
+          "description": "Stomatološka sestra - tehničar/asistent",
+          "location": "Beograd",
+          "tags": [
+            { "id": 1, "tag": "Full Time", "marker": "blue" },
+            { "id": 2, "tag": "Junior", "marker": "orange" }
+          ],
+          "time": 1588077519,
+          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+        },
+        {
+          "id": 7,
+          "title": "Operater u kladionici",
+          "description": "Stomatološka sestra - tehničar/asistent",
+          "location": "Beograd",
+          "tags": [
+            { "id": 1, "tag": "Full Time", "marker": "blue" },
+            { "id": 2, "tag": "Junior", "marker": "orange" }
+          ],
+          "time": 1588077519,
+          "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
+        },
+        {
+          "id": 8,
+          "title": "Operater u kladionici",
+          "description": "Stomatološka sestra - tehničar/asistent",
+          "location": "Beograd",
+          "tags": [
+            { "id": 1, "tag": "Full Time", "marker": "blue" },
+            { "id": 2, "tag": "Junior", "marker": "orange" }
+          ],
+          "time": 1588077519,
           "img": "https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg"
         }
       ],
@@ -70,5 +132,28 @@
                 "Severena Srbija", "Centralna Srbija", "Juzna Srbija"
             ]
         }
+    ],
+    "positions": [
+      {
+        "id": 1,
+        "title": "Full-Time Pozicije",
+        "description":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.",
+        "marker": "orange"
+      },
+      {
+        "id": 2,
+        "title": "Part-Time Pozicije",
+        "description":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.",
+        "marker": "green"
+      },
+      {
+        "id": 3,
+        "title": "Rad od kuce",
+        "description":
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.",
+        "marker": "blue"
+      }
     ]
 }
