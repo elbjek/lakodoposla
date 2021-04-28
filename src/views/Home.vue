@@ -23,9 +23,13 @@
       <div class="container">
         <h2 class="heading-main">Vruci oglasi</h2>
         <div class="home-hot-ads-all row">
-          <div v-for="ad in hotAds.slice(0,8)" :key="ad.index" class="col-sm-6 col-md-6 col-lg-3">
+          <router-link
+            :to="'/oglasi/'+ad.id"
+            v-for="ad in hotAds.slice(0,8)"
+            :key="ad.id" class="col-sm-6 col-md-6 col-lg-3"
+            >
             <Ad  :ad="ad" marker='regular'/>
-          </div>
+          </router-link>
         </div>
       </div>
     </section>
@@ -33,10 +37,12 @@
       <div class="container">
         <h3 class="heading-main">Najnoviji oglasi</h3>
         <div class="home-new-ads-all row">
-          <div v-for="ad in newAds.slice(0,4)" :key="ad.id" class="col-sm-12">
+          <router-link
+          :to="'/oglasi/'+ad.id"
+          v-for="ad in newAds.slice(0,4)" :key="ad.id" class="col-sm-12">
             <Ad :ad="ad" marker='latest'/>
-          </div>
-          <router-link to='/oglasi'>Izlistaj sve poslove</router-link>
+          </router-link>
+          <router-link to='/oglasi' class="link-all">Izlistaj sve poslove</router-link>
         </div>
       </div>
     </section>
@@ -44,7 +50,7 @@
       <div class="container">
         <h4 class="heading-main">Pogledajte poslove po zelji</h4>
         <div class="home-categories-all row">
-          <div v-for="category in categories" :key="category.index"
+          <div v-for="category in categories" :key="category.id"
             :class="
             category.list.length > 5 ? 'col-sm-12 col-lg-6' : 'col-sm-12 col-md-4 col-lg-2'">
             <h5>{{category.title}}</h5>
@@ -76,18 +82,21 @@ export default {
   data: () => ({
     positions: [
       {
+        id: 1,
         title: 'Full-Time Pozicije',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.',
         marker: 'orange',
       },
       {
+        id: 2,
         title: 'Part-Time Pozicije',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.',
         marker: 'green',
       },
       {
+        id: 3,
         title: 'Rad od kuce',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat.',
@@ -96,75 +105,84 @@ export default {
     ],
     hotAds: [
       {
+        id: 1,
         title: 'Operater u kladionici',
         img: 'https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg',
       },
       {
+        id: 2,
         title: 'Operater u kladionici',
         img: '',
       },
       {
+        id: 3,
         title: 'Operater u kladionici',
         img: 'https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg',
       },
       {
+        id: 4,
         title: 'Operater u kladionici',
         img: 'https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg',
       },
       {
+        id: 5,
         title: 'Operater u kladionici',
         img: 'https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg',
       },
       {
+        id: 6,
         title: 'Operater u kladionici',
         img: 'https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg',
       },
       {
+        id: 7,
         title: 'Operater u kladionici',
         img: 'https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg',
       },
       {
+        id: 8,
         title: 'Operater u kladionici',
         img: 'https://www.akcijeikatalozi.rs/media/prodavac/Aman.jpg',
       },
     ],
     newAds: [
       {
+        id: 1,
         title: 'Operater u kladionici',
         description: 'Stomatološka sestra - tehničar/asistent',
         location: 'Beograd',
         tags: [
-          { tag: 'Full Time', marker: 'blue' },
-          { tag: 'Junior', marker: 'orange' },
-          { tag: 'Remote', marker: 'green' },
+          { id: 1, tag: 'Full Time', marker: 'blue' },
+          { id: 2, tag: 'Junior', marker: 'orange' },
+          { id: 3, tag: 'Remote', marker: 'green' },
         ],
         time: new Date(),
       },
       {
+        id: 2,
         title: 'Operater u kladionici',
         description: 'Stomatološka sestra - tehničar/asistent',
         location: 'Beograd',
         tags: [
-          { tag: 'Full Time', marker: 'blue' },
-          { tag: 'Junior', marker: 'orange' },
-          { tag: 'Remote', marker: 'green' },
+          { id: 3, tag: 'Remote', marker: 'green' },
         ],
         time: new Date(),
       },
       {
+        id: 3,
         title: 'Operater u kladionici',
         description: 'Stomatološka sestra - tehničar/asistent',
         location: 'Beograd',
         tags: [
-          { tag: 'Full Time', marker: 'blue' },
-          { tag: 'Junior', marker: 'orange' },
-          { tag: 'Remote', marker: 'green' },
+          { id: 1, tag: 'Full Time', marker: 'blue' },
+          { id: 2, tag: 'Junior', marker: 'orange' },
         ],
         time: new Date(),
       },
     ],
     categories: [
       {
+        id: 1,
         title: 'Po popularnosti',
         list: [
           'Administracija, Knjigovodstvo', 'Advertising, Marketing, PR',
@@ -176,6 +194,7 @@ export default {
         ],
       },
       {
+        id: 2,
         title: 'Senioritet',
         list: [
           'Bez iskustva', 'Junior', 'Medior', 'Senior', 'Studenti',
@@ -188,6 +207,7 @@ export default {
         ],
       },
       {
+        id: 3,
         title: 'Po regiji',
         list: [
           'Severena Srbija', 'Centralna Srbija', 'Juzna Srbija',

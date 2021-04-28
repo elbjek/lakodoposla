@@ -1,0 +1,36 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Po popularnosti",
+            "list": [
+                "Administracija, Knjigovodstvo", "Advertising, Marketing, PR",
+                "Prevodjenje, jezici, knjizevnost", "Elektronika, Elektrotehnika", "Telekomunikacije",
+                "Ljudski resursi", "Menadzment i upravljanje", "Izdavacke kuce, Mediji", "Stamparske usluge",
+                "Trgovina na veliko", "Turizam, Ugostiteljstvo", "Zanatske usluge",
+                "Tekstilna industrija", "Saobracaj, Transport", "Skladista i Magacini", "Knjizevnost",
+                "Roba siroke potrosnje", "Ekonomija", "Drzavne institucije"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Senioritet",
+            "list": [
+                "Bez iskustva", "Junior", "Medior", "Senior", "Studenti"
+            ]
+        },
+        {
+            "title": "Po tipu",
+            "list": [
+                "Poslodavac", "Agencija za zaposljavanje", "Puno radno vreme", "Pola radnog vremena", "Praksa"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Po regiji",
+            "list": [
+                "Severena Srbija", "Centralna Srbija", "Juzna Srbija"
+            ]
+        }
+    ]
+}

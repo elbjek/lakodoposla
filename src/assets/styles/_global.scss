@@ -9,6 +9,13 @@ body {
     background-color: $background-color;
 }
 
+a {
+    color: $link-black;
+    &:hover {
+        color: $link-black;
+    }
+}
+
 .button, .button-search {
     padding: 7px 15px;
     display: block;

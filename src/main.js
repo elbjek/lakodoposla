@@ -5,7 +5,6 @@ import store from './store';
 
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import './assets/styles/main.scss';
 
 const moment = require('moment');
