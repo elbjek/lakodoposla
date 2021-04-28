@@ -23,7 +23,7 @@
       <div class="container">
         <h2 class="heading-main">Vruci oglasi</h2>
         <div class="home-hot-ads-all row">
-          <div v-for="ad in hotAds.slice(0,8)" :key="ad.index" class="col-sm-12 col-lg-3">
+          <div v-for="ad in hotAds.slice(0,8)" :key="ad.index" class="col-sm-6 col-md-6 col-lg-3">
             <Ad  :ad="ad" marker='regular'/>
           </div>
         </div>
