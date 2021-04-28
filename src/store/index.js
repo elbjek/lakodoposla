@@ -10,8 +10,12 @@ export default new Vuex.Store({
     categories: [],
     positions: [],
     advert: null,
+    loading: false,
   },
   mutations: {
+    loading(state, status) {
+      state.loading = status;
+    },
     SET_ADVERTS(state, adverts) {
       state.adverts = adverts;
     },
@@ -29,9 +33,11 @@ export default new Vuex.Store({
   },
   actions: {
     getAdverts({ commit }) {
+      commit('loading', true);
       axios.get('http://localhost:3000/adverts')
         .then((response) => {
           commit('SET_ADVERTS', response.data);
+          commit('loading', false);
         });
     },
 
@@ -53,6 +59,11 @@ export default new Vuex.Store({
         .then((response) => {
           commit('SET_POSITIONS', response.data);
         });
+    },
+  },
+  getters: {
+    loading(state) {
+      return state.loading;
     },
   },
   modules: {

@@ -20,6 +20,9 @@
     p {
         margin-bottom: 5px;
         color: $color-gray;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;    
     }
     
     &-tags {
@@ -32,17 +35,12 @@
         .single-ad-component-tag {
             display: inline-block;
             padding: 0.5rem 1rem;
-            margin: 0px 5px;
             font-size: 11px;
             border-radius: 5px;
             font-weight: 700;
 
-            &:first-of-type {
-                margin-left: 0;
-            }
-
-            &-last-of-type {
-                margin-right: 0;
+            &:nth-child(even){
+                margin: 0px 5px;
             }
             
             &-blue {

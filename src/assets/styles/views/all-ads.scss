@@ -1,0 +1,25 @@
+.all-ads-page{
+    margin-top: 2rem;
+    &-data {
+        .single-ad-component {
+            background-color: $background-color-white;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            &-buttons {
+                justify-content: space-between;
+                margin-top: 1rem;
+                padding-top: 1rem;
+                border-top: 1px solid #f4f4f4;
+                .button {
+                    padding: 7px 1.4rem;
+                    &:first-of-type {
+                        margin-left: 0;
+                    }
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,11 +2,11 @@
  <div class="all-ads-page">
     <div class="container">
       <div class="row">
-        <aside class="col-sm-4">
+        <aside class="col-sm-3">
           <Subscription/>
           <CvGenerator/>
         </aside>
-        <section class="col-sm-8 all-ads-page-data">
+        <section class="col-sm-9 all-ads-page-data">
           <div class="row">
             <div class="col-sm-4" v-for="advert in adverts" :key="advert.id">
               <Ad :ad="advert" :marker="'all'"/>
@@ -33,6 +33,9 @@ export default {
     this.$store.dispatch('getAdverts');
   },
   computed: {
+    loading() {
+      return this.$store.getters.loading;
+    },
     adverts() {
       return this.$store.state.adverts;
     },
