@@ -2,13 +2,15 @@
   <div class="single-ad-page">
     <div class="container">
       <div class="row">
-        <aside class="col-sm-4">
+        <aside class="col-sm-3">
           <Subscription/>
           <CvGenerator/>
         </aside>
-        <section class="col-sm-8 single-ad-page-data">
-          <Loading v-if="loading"/>
-          <Ad :ad="advert" :marker="'all'"/>
+        <section class="col-sm-9 single-ad-page-data">
+          <div class="row">
+            <Loading v-if="loading"/>
+            <Ad :ad="advert" :marker="'all'"/>
+          </div>
         </section>
       </div>
     </div>

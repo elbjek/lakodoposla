@@ -1,0 +1,15 @@
+.filters {
+    margin-top: 1rem;
+    p {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    .form-check-label {
+        color:$color-gray;
+        font-size:14px;
+    }
+    input, input[type='checkbox'] {
+        border:none;
+    }
+}

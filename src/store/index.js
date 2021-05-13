@@ -45,6 +45,7 @@ export default new Vuex.Store({
       commit('loading', true);
       axios.get(`http://localhost:3000/adverts/${id}`)
         .then((response) => {
+          console.log(response, id);
           commit('loading', false);
           commit('SET_ADVERT', response.data);
         });
